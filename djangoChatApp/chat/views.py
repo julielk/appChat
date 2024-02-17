@@ -3,6 +3,7 @@ from chat.models import Room, Message
 from django.http import HttpResponse, JsonResponse
 
 # Create your views here.
+# request for home.html
 def home(request):
     return render(request, 'home.html')
 
