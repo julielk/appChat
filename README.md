@@ -67,8 +67,28 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+# Database Model
+![appModel4](https://github.com/julielk/appChat/assets/118198069/e079aab9-f00a-49ae-a8a4-52eca4441806)
+
+
+So now tI'm going to set up two models,one is going to be for the chatroom,
+and the second one is going to be for the messages. I'm going to name  
+the room name.messages. So say models dot model. Right now,  I just gonna say value. I think value is a good name. So value is like  the message the user wants to send like a
+let's give it a date.date time. 
+So the next thing we want to have is the user. So which user is sending
+this particular message be able to double it's just to avoid any errors 
+in this project. And then the last term I want to add is the room. 
+So want to know which room is this projects been is this mess
+
+
+
+
+
+
+
+
 # Validator Testing
-# #HTML
+## HTML
 No errors were returned when passing through the official W3C validator
 ## CSS
 No errors were found when passing through the official (Jigsaw) validator
