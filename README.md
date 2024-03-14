@@ -71,14 +71,13 @@ If this section grows too long, you may want to split it off into a separate fil
 ![appModel4](https://github.com/julielk/appChat/assets/118198069/e079aab9-f00a-49ae-a8a4-52eca4441806)
 
 
-So now tI'm going to set up two models,one is going to be for the chatroom,
-and the second one is going to be for the messages. I'm going to name  
-the room name.messages. So say models dot model. Right now,  I just gonna say value. I think value is a good name. So value is like  the message the user wants to send like a
-let's give it a date.date time. 
-So the next thing we want to have is the user. So which user is sending
-this particular message be able to double it's just to avoid any errors 
-in this project. And then the last term I want to add is the room. 
-So want to know which room is this projects been is this mess
+I am  going to set up two models, using the ERD desing abov first one is called room,
+and the second called  the messages. In side the room model a model called name with a character field  
+Inside the messages models a  value with characterfield
+ for example  if the user wants to send  a message, let's give it a date.date time field. 
+So the next thing we want to have is the user,charater field in this project.
+And then the last term I want to add is the room. 
+So want to know which room is this projects been is this message
 
 
 
@@ -110,15 +109,14 @@ Once the master branch has been selected, the page will be automatically refresh
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
 # Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+Snippet Tool  used for the screenshot of images in project
+Luncid Chart used for designing database  models.
+Django Framework  design for chat App
 
-You can break the credits section up into Content and Media, depending on what you have included in your project.
 
-Content
+
+#  Content
 The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome
-Media
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+Instructions on how to implement form validation on the Sign Up page was taken from Specific
+YouTube Tutorial The photos used on the home and sign up page are from This Open Source site
+The images us  were taken from the pixel websitee site
