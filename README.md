@@ -79,9 +79,10 @@ Unfixed Bugs
   https://github.com/julielk/appChat
 
 ## Credits
-**Snippet Tool**  used for the screenshot of images in project
-**Luncid Chart**  used for designing database  models.
-**Django Framework**  design for chat App
+**Snippet Tool** -  used for the screenshot of images in project <br>
+**Luncid Chart** -  used for designing database  models. <br>
+**Django Framework** -  design for chat App <br>
+**dbsqlite3**   -   database sqllite  <br>
 
 
 
