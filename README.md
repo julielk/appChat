@@ -20,14 +20,14 @@ And then the last term I want to add is the room. So we want to know which room 
 
 # App Chat
 
-![](djangochat/static/images/form.png)
+![form](https://github.com/julielk/appChat/blob/main/djangochat/static/images/form.PNG)
 
 
 
 
 The front-end of the app before enterning room or sending a message
 
-![](images/form2.png)
+![form2](https://github.com/julielk/appChat/blob/main/djangochat/static/images/form2.PNG)
 Now. Let's enter room name as *Backend Developer*.  Now you see that it loads all the *messages* of this
 room. Now, let me say *chat app with backend development* automatically, you see, it shows you and 
 it shows in my own side also. So it's *real time*. So if someone is in another part of the 
@@ -38,7 +38,9 @@ right here in my own platform a real time  feature,
 
 # Database
 
-![](images/database.png)
+![database](https://github.com/julielk/appChat/blob/main/djangochat/static/images/database.PNG)
+
+
 In te django adminstration database the messaage sent  at the front-end  is stored at the backend.
 if we click on messages the message object. Shows the value *chat app with backend development*,
 date  2020.03.21,  time 15.16, user *joe blogs* room *8*
@@ -72,18 +74,18 @@ Unfixed Bugs
 
 
 
-# Github Repository
+## Github Repository
 
   https://github.com/julielk/appChat
 
-# Credits
+## Credits
 **Snippet Tool**  used for the screenshot of images in project
 **Luncid Chart**  used for designing database  models.
 **Django Framework**  design for chat App
 
 
 
-# Content
+## Content
 
 Instructions on how to implement form validation taken from code
 Insitute Tutorial The images us were taken from the unsplash websitee site
