@@ -16,6 +16,7 @@ def room(request, room):
         'room_details': room_details
     })
 
+# check user request 
 def checkview(request):
     room = request.POST['room_name']
     username = request.POST['username']
@@ -26,7 +27,7 @@ def checkview(request):
         new_room = Room.objects.create(name=room)
         new_room.save()
         return redirect('/'+room+'/?username='+username)
-
+# send message
 def send(request):
     message = request.POST['message']
     username = request.POST['username']
@@ -36,6 +37,7 @@ def send(request):
     new_message.save()
     return HttpResponse('Message sent successfully')
 
+# filter message of particular room ID
 def getMessages(request, room):
     room_details = Room.objects.get(name=room)
 
