@@ -1,4 +1,4 @@
-# appChat 
+# App Chat 
 
 So this is the simple application I am going to be building . Now all these data you're seeing here with the date and time with the message and the name are going to be saved in our database .You will see getting back all these messagesin real time. 
 
@@ -20,14 +20,14 @@ And then the last term I want to add is the room. So we want to know which room 
 
 # App Chat
 
-![frorm](images/form.png)
+![](djangochat/static/images/form.png)
 
 
 
 
 The front-end of the app before enterning room or sending a message
 
-![form](images/form2.png)
+![](images/form2.png)
 Now. Let's enter room name as *Backend Developer*.  Now you see that it loads all the *messages* of this
 room. Now, let me say *chat app with backend development* automatically, you see, it shows you and 
 it shows in my own side also. So it's *real time*. So if someone is in another part of the 
@@ -38,7 +38,7 @@ right here in my own platform a real time  feature,
 
 # Database
 
-![databse](static/images/database.png)
+![](images/database.png)
 In te django adminstration database the messaage sent  at the front-end  is stored at the backend.
 if we click on messages the message object. Shows the value *chat app with backend development*,
 date  2020.03.21,  time 15.16, user *joe blogs* room *8*
@@ -59,14 +59,14 @@ Unfixed Bugs
 
 ## Testing App Chat form
 
-So let's make sure we got no errors. And in this -test . So let's just
-go to the home page. An So now let me create a new room. So let me
-say, let me just say, *development*, let me just name it *developmenr*. And now let
+ So let's make sure we got no errors. And in this -test . So let's just
+ go to the home page. An So now let me create a new room. So let me
+ say, let me just say, *development*, let me just name it *developmenr*. And now let
  you can see now that there are no messages,  I can put something like, if there are 
  no messages, I should say, no messages in the room. We don't need that for now. 
  So *deelopmenr*.And then let's enter another another name, *Joe*, we need to enter.
  So now we have these two blank rooms, who's online, it's automatically shows here 
- without any delay. 
+  without any delay. 
 
 
 
