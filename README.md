@@ -20,14 +20,14 @@ And then the last term I want to add is the room. So we want to know which room 
 
 # App Chat
 
-![frorm](static/images/form.png)
+![frorm](images/form.png)
 
 
 
 
 The front-end of the app before enterning room or sending a message
 
-![form](static/images/form2.png)
+![form](images/form2.png)
 Now. Let's enter room name as *Backend Developer*.  Now you see that it loads all the *messages* of this
 room. Now, let me say *chat app with backend development* automatically, you see, it shows you and 
 it shows in my own side also. So it's *real time*. So if someone is in another part of the 
